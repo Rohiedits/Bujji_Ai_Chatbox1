@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 
+
 function App() {
   const [chatHistory, setChatHistory] = useState([]);
   const [question, setQuestion] = useState("");
@@ -50,6 +51,7 @@ function App() {
   }
 
   return (
+   
     <div className="fixed inset-0 bg-gradient-to-r from-blue-50 to-blue-100">
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Fixed Header */}
@@ -59,7 +61,7 @@ function App() {
              rel="noopener noreferrer"
              className="block">
             <h1 className="text-4xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
-              Bujji The AI
+              Ai Tutor [Bujji]
             </h1>
           </a>
         </header>
