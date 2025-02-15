@@ -95,6 +95,9 @@ function App() {
                 <p className="text-gray-500 mt-6 text-sm">
                   Just type your question below and press Enter or click Send!
                 </p>
+                <p className="text-pink-500 mt-6 text-sm">
+                  Developed by Rohith Bhojanapu....
+                </p>
               </div>
             </div>
           ) : (
